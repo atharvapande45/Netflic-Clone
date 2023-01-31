@@ -10,6 +10,8 @@ function Navbar() {
     } else handleShow(false);
   });
 
+  //
+
   return (
     <div className={`navbar ${show && "nav__black"}`}>
       <img
